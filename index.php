@@ -15,7 +15,7 @@
         <a href="#">About</a>
         <a href="#">Contact</a>
         <a href="#">Teach</a>
-        <a href="#">Login</a>
+        <a href="register/login.php">Login</a>
         <a href="#">Signup</a>
 
     </div>
