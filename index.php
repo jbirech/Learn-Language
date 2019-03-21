@@ -9,30 +9,12 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <div class="header">
-        <a href="#">Learn</a>
-        <a href="#">Languages</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-        <a href="#">Teach</a>
-        <a href="register/login.php">Login</a>
-        <a href="#">Signup</a>
 
-    </div>
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+    choose Image to upload:<br>
+        <input type="file" name="fileToUpload" id="fileToUpload"><br>
+        <input type="submit" value="Upload Image" name="submit">
+    </form>
 
-    <!--Main Body, display clearly what the website is all about -->
-    <div class="MainBody">
-
-    </div>
-
-    <!-- subfooter, login, signup and some extra details -->
-    <div class="subfooter">
-
-    </div>
-
-    <!-- Footer details, copyright-->
-    <div class="footer">
-
-    </div>
 </body>
 </html>
